@@ -1,0 +1,228 @@
+Cloud computing --- The on-demand delivery of compute power, databases, storage, applications, and other IT resources using the internet with pay-as-you-go pricing
+
+
+Amazon Web Services (AWS) ---A platform that provides a wide range of cloud computing services.
+
+Cloud storage --- Saving data using a cloud service provider (CSP) instead of a physical machine.
+
+
+Server --- A computer designed to process requests and deliver data to another computer over the internet or a local network. In the cloud, a server is hosted by an outside provider, which is accessed over the internet.
+
+
+Availability Zone --- One or more data centers that house many servers. Each Region has multiple, isolated locations known as Availability Zones. Each Availability Zone is isolated, but the Availability Zones in a Region are connected through low-latency links. An Availability Zone is represented by a Region code followed by a letter identifier, for example, us-east-1a.
+
+Edge location --- A site where data can be stored for lower latency. Often, edge locations will be close to high-population areas that will generate high-traffic volumes.
+
+
+Infrastructure as a service (IaaS) --- A model in which virtual machines and servers are used for customers to host a wide range of applications and IT services are provided.
+
+
+Latency --- The delay before a transfer of data begins after the data has been requested.
+
+
+Platform as a service (PaaS) ---- A model that provides a virtual platform for customers to create custom software.  
+
+
+Region --- An area where data is stored. Data storage in a Region closest to you is one of the reasons it can be accessed at lightning speed.
+
+
+Software as a service (SaaS) --- A model that provides applications using the internet that are managed by a third party.
+
+
+Amazon Simple Storage Service (Amazon S3) --- A service provided by AWS that stores data for users in the cloud.
+
+
+Amazon Elastic Compute Cloud (Amazon EC2)--- A web service that provides secure, resizable compute capacity in the cloud. Think of it as renting a computer in the cloud.
+
+
+Amazon Elastic Block Store (Amazon EBS) --- Storage for specific EC2 instances. Think of it as the storage drive for your EC2 instance.
+
+
+Amazon Relational Database Service (Amazon RDS) --- This lets developers create and manage relational databases in the cloud. Think of a relational database as a set of data with 1-to-1 relationships. For example, a database of transactions in a department store would match every customer with their purchases. Amazon RDS lets developers track large amounts of this data, and organize and search through it easily. Relational databases are equipped with nonprocedural structured query language (SQL) that simplifies interactions with the database.
+
+
+Amazon DynamoDB --- The AWS nonrelational database service. Data is stored in key-value pairs.
+
+
+AWS Lambda --- Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume—there is no charge when your code is not running. With Lambda, you can run code for virtually any type of application or backend service—all with zero administration. Upload your code, and Lambda takes care of everything required to run and scales your code with high availability. You can set up your code to automatically start from other AWS services or call it directly from any web or mobile app.
+
+
+
+Amazon Virtual Private Cloud (Amazon VPC) --- A service that provides a virtual network that is dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS Cloud. All your AWS services can be launched from a VPC. It is useful for protecting your data and managing who can access your network.
+
+
+AWS Identity and Access Management (IAM) --- Involves the application of controls to users who need access to computing resources.
+
+
+AWS CloudTrail --- Monitors every action that is performed on your AWS account for security purposes.
+
+
+Amazon CloudWatch --- CloudWatch is a monitoring service to monitor your AWS resources and the applications that you run on AWS.
+
+
+Amazon Redshift --- The AWS data-warehousing service can store massive amounts of data in a way that makes it fast to query for business intelligence purposes.
+
+
+Amazon Elastic Compute Cloud (Amazon EC2) --- A web service that provides secure, resizable compute capacity in the cloud. Think of it as renting a computer in the cloud.
+
+
+Amazon Simple Storage Service (Amazon S3) --- A service provided by Amazon Web Services (AWS) that stores data for users in the cloud.
+
+
+Domain Name System (DNS) --- A naming system for computers, devices, and resources connected to a network.
+
+
+Amazon Simple Storage Service (Amazon S3) bucket --- A container of objects (such as images, audio files, video files, documents, and so on) in Amazon S3.
+
+
+Policy --- An object in AWS that, when associated with an identity or a resource, defines its permissions. AWS evaluates these policies when a principal entity (user or role) makes a request.
+
+
+Domain name --- A label that identifies a network of computers under centralized control.
+
+
+Amazon Route 53 --- The AWS DNS web service.
+
+
+Virtual private cloud (VPC) --- A virtual network dedicated to your AWS account. It is logically isolated from other virtual networks in the AWS Cloud. All your AWS services can be launched from a VPC. It is useful for protecting your data and managing who can access your network.
+
+
+JavaScript Object Notation (JSON) --- A syntax for storing and exchanging data.
+
+
+Dynamic website --- A website that changes based on user interactions; often built using Python, JavaScript, PHP, or ASP with Hypertext Markup Language (HTML).
+
+
+Static website --- A website that does not change based on user interactions; typically built using HTML and Cascading Style Sheets (CSS).
+
+
+Amazon CloudFront --- A fast content delivery network (CDN) service that securely delivers data, videos, applications, and application programming interfaces (APIs) to customers globally with low latency and high transfer speeds, all within a developer-friendly environment.
+
+
+AWS Direct Connect --- Direct Connect is a cloud service solution that provides the ability to establish a dedicated network connection from your on-premises environment to AWS. Using Direct Connect, you can establish private connectivity between AWS and your data center, office, or colocation environment, which in many cases can reduce your network costs, increase bandwidth throughput, and provide a more consistent network experience than internet-based connections.
+
+
+Caching --- Storing frequently requested data in edge locations so that it can be accessed more quickly.
+
+
+Content delivery network (CDN) --- A system of distributed servers (network) that delivers pages and other web content to a user, based on the geographic locations of the user, the origin of the webpage, and the content delivery server
+
+
+Distribution --- Instructs CloudFront where to get the information that it is caching in the edge locations and how to track and manage the content delivery.
+
+
+Edge location --- A site where data can be stored for lower latency. Often, edge locations will be close to high-population areas that will generate high traffic volumes.
+
+
+Origin --- A complex type that describes the Amazon S3 bucket, Hypertext Transfer Protocol (HTTP) server (for example, a web server), or other server from which CloudFront gets your files.
+
+
+Amazon Elastic Block Store (Amazon EBS) --- Storage for specific Amazon Elastic Compute Cloud (Amazon EC2) instances. Think of it as the storage drive for your EC2 instance.
+
+
+Hard disk drive (HDD) --- Slower storage that uses a spinning disk to store data.
+
+
+Input/Output Operations Per Second (IOPS) --- A common performance measurement used to benchmark computer storage devices like hard disk drives (HDDs) and solid state drives (SSDs).
+
+
+Solid state drive (SSD) --- Very fast storage that uses flash memory instead of a spinning disk.
+
+
+AWS Identity and Access Management (IAM) --- Involves the application of controls to users who need access to computing resources.
+
+
+Role --- An IAM identity that you can create in your account that has specific permissions.
+
+
+User --- An entity that you create in Amazon Web Services (AWS) to represent the person or application that uses it to interact with AWS. A user in AWS consists of a name and credentials.
+
+
+Security group --- A security group acts as a virtual firewall for your instance to control inbound and outbound traffic.
+
+
+Policy --- An object in AWS that, when associated with an identity or a resource, defines its permissions. AWS evaluates these policies when a principal entity (user or role) makes a request.
+
+
+Amazon Inspector --- Helps customers identify security vulnerabilities and deviations from security best practices in applications, before they are deployed and while they are running in a production environment.
+
+
+Group --- An IAM group is a collection of IAM users. Groups let you specify permissions for multiple users, which can make it easier to manage the permissions for those users.
+
+
+Root user --- When you first create an AWS account, you begin with a single sign-in identity that has complete access to all AWS services and resources in the account.
+
+
+
+AWS Shield --- A managed DDoS protection service that safeguards applications running on Amazon Web Services (AWS).
+
+
+AWS WAF --- A service that gives you control over which traffic to allow or block to your web applications by defining customizable web security rules.
+
+
+Distributed denial of service (DDoS) --- A malicious attempt to make a targeted system, such as a website or application, unavailable to end users. To achieve this, attackers use a variety of techniques that consume network or other resources, interrupting access for legitimate end users.
+
+
+Amazon Inspector --- An automated security assessment service. It helps you test the network accessibility of your Amazon Elastic Compute Cloud (Amazon EC2) instances and the security state of your applications running on the instances.
+
+
+AWS Artifact --- A central resource for compliance-related information. It provides on-demand access to AWS security and compliance reports and select online agreements.
+
+
+Amazon CloudWatch --- A monitoring service to monitor your AWS resources and the applications that you run on AWS
+
+
+AWS CloudTrail --- A service to monitor and log every action that is performed on your AWS account for security purposes
+
+
+AWS Config --- A service that lets you assess, audit, and evaluate the configurations of your AWS resources
+
+
+Amazon Simple Notification Service (Amazon SNS) --- An AWS tool that lets you send texts, emails, and messages to other cloud services and send notifications in various forms from the cloud to the client
+
+
+Amazon Redshift --- The AWS data-warehousing service that can store massive amounts of data in a way that makes it fast to query for business intelligence (BI) purposes.
+
+
+Amazon Aurora --- A relational database engine compatible with MySQL and PostgreSQL, built for the cloud, combining the performance and availability of traditional enterprise databases with the simplicity and cost-effectiveness of open-source databases.
+
+
+Online transaction processing (OLTP) --- A category of data processing that is focused on transaction-oriented tasks. OLTP typically involves inserting, updating, or deleting small amounts of data in a database.
+
+
+Online analytic processing (OLAP) --- A computing method that lets users efficiently and selectively extract and query data to analyze it from different points of view.
+
+
+Amazon ElastiCache --- A web service that makes it easy to deploy, operate, and scale an in-memory cache in the cloud. The service improves the performance of web applications by letting you retrieve information from fast, managed, in-memory caches, instead of relying on slower disk-based databases.
+
+
+Elastic Load Balancing --- Elastic Load Balancing automatically distributes incoming application traffic across multiple targets, such as Amazon Elastic Compute Cloud (Amazon EC2) instances, containers, IP addresses, and AWS Lambda functions. If traffic to a website suddenly spikes, that traffic can be routed to other EC2 instances (or other types of instances such as Lambda instances) that have been established in advance for this purpose. This load balancing avoids a single server being overloaded because of increased traffic routed to it.
+
+
+AWS Elastic Beanstalk --- Elastic Beanstalk automatically handles the deployment details of capacity provisioning, load balancing, automatic scaling, and application health monitoring of an application. In many ways, using Elastic Beanstalk is like running a macro or a batch file that places a wrapper around an existing application so that it runs smoothly in the Amazon Web Services (AWS) Cloud.
+
+
+
+AWS CloudFormation --- This service gives developers and businesses an easy way to create a collection of related AWS resources and provision them in an orderly and predictable fashion. CloudFormation provides a means for combining a stack of AWS services, similar to writing macros or batch files in Linux or Microsoft Windows.
+
+
+Stack --- A collection of AWS resources that you can manage as a single unit. You can create, update, or delete a collection of resources by creating, updating, or deleting stacks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
